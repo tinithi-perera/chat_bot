@@ -1,6 +1,35 @@
 h1{
-    color: yellow;
+    color:#2f3542;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 70px;
+    border: 2px solid #feca57;
+    background-color: #feca57;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #feca57;
+    border-radius: 4px;
+}
+
+input[type=button] {
+    width: 100%;
+    background-color: #feca57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
