@@ -2,7 +2,7 @@ function sendPromptOnAction() {
     alert("Prompt sent to the server!");
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
-    myHeaders.append("X-goog-api-key", " API_KEY_HERE");
+    myHeaders.append("X-goog-api-key", " YOUR_API_KEY_HERE ");
     let userInput = document.getElementById("txtUserInput").value;
     const raw = JSON.stringify({
         "contents": [
